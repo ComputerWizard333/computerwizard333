@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<head>
+  <title>Let Them Eat Fish</title>
+  <style>
+    body {
+      text-align: center;
+      background: url("https://images.unsplash.com/photo-1559825481-12a05cc00344?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Nnx8d2F0ZXJ8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&w=1000&q=80");
+      background-size: cover;
+      background-position: center;
+      color: white;
+      font-family: helvetica;
+    }
+    
+    img {
+      border: 10;
+    }
+    
+    p {
+      font-size: 22px;
+    }
+    
+    h1{
+      font-size: 39px;
+      text-transform: uppercase;
+    }
+    
+    input[placeholder="fish or fish?"] {
+      text-align: center;
+    }
+    
+    input {
+      border: 0;
+      padding: 10px;
+      font-size: 18px;
+    }
+    input[type="submit"] {
+      background: red;
+      color: white;
+    }
+  </style>
+</head>
+
+<img src="https://i.ytimg.com/vi/ImjA2XsSBWc/maxresdefault.jpg" style="width:600px; height:400px;">
+
+<body>
+  <p><h1>Internet <br>dolphin</h1>Designed to suit your needs and make the big dogs money!</p>
+  <input type="email" placeholder="fish or fish?">
+  <input type="submit" class="I Submit" value="fish">
+</body>
+
+
+
+<br>
+<br>
+
+<a onclick="document.getElementById('https:\/\/files.freemusicarchive.org\/storage-freemusicarchive-org\/music\/no_curator\/Gassyoh\/Cow_ep\/Gassyoh_-_03_-_Techno_Mahal.mp3').play();">
+     <img src="https://i.kym-cdn.com/entries/icons/original/000/002/238/bitdance.gif" style="width:60px; height:60px;">
+</a>
+
+ <a onclick="myAudioFunction('a');">
+     <img src="https://i.kym-cdn.com/entries/icons/original/000/002/238/bitdance.gif" style="width:60px; height:60px;">
+ </a>
+ <a onclick="myAudioFunction('b');">
+     <img src="https://i.kym-cdn.com/entries/icons/original/000/002/238/bitdance.gif" style="width:60px; height:60px;">
+ </a>
+ <script>
+     var aAudio = new Audio('https:\/\/files.freemusicarchive.org\/storage-freemusicarchive-org\/music\/no_curator\/Gassyoh\/Cow_ep\/Gassyoh_-_03_-_Techno_Mahal.mp3');
+     var bAudio = new Audio('b.mp3');
+     function myAudioFunction(letter) {
+         if(letter == 'a') {
+             aAudio.play();
+         } else if(letter == 'b') {
+             bAudio.play();
+         }
+     }
+ </script>
